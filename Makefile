@@ -16,7 +16,7 @@ create-switch:
 	opam switch create . --deps-only --locked
 
 .PHONY: init
-init: create-switch install pins ## Configure everything to develop this repository in local
+init: create-switch install ## Configure everything to develop this repository in local
 	yarn
 
 .PHONY: install
